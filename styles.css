@@ -85,3 +85,8 @@ img {
     width:75%;
     margin: 0 auto;
 }
+
+.imageLink {
+    font-size: small;
+    color: #b84d56;
+}
