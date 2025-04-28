@@ -2,13 +2,29 @@ body {
     background-color: #edced6;
 }
 h1 {
-    color: #260402;
+    color: #0E1224;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding-top:60px;
+    text-align: center;
 }
 p {
-    color:#260402;
-    font-family: Georgia, 'Times New Roman', Times, serif}
+    color:#0E1224;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+h2 {
+    color: #0E1224;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h4 {
+    color: #0E1224;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+a {
+    color:#9b1823;
+}
 
 #navigationBar {
     list-style-type: none;
@@ -46,4 +62,17 @@ p {
 
 .active:hover {
     background-color: #841e26;
+}
+
+.credits {
+    text-align: center;
+}
+.creditsUL {
+    display: inline-block;
+    text-align: left;
+}
+
+.mainText {
+    width:75%;
+    margin: 0 auto;
 }
