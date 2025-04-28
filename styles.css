@@ -3,8 +3,47 @@ body {
 }
 h1 {
     color: #260402;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top:60px;
 }
 p {
     color:#260402;
     font-family: Georgia, 'Times New Roman', Times, serif}
+
+#navigationBar {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2a2e45;
+    overflow:visible;
+}
+
+.navItems {
+    float: left;
+    display: inline;
+}
+
+.navLink {
+    display: block;
+    color: #edced6;
+    font-size:large;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navLink:hover {
+    background-color: #242735;
+    color: #edced6;
+}
+
+.active {
+    background-color: #9b1823;
+  }
+
+.active:hover {
+    background-color: #841e26;
+}
